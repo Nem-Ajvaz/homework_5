@@ -1,8 +1,8 @@
 const $contentEle = $("#mainSec");
 const $clockDisplay = $("#clockDisplay");
 
-const dayStart = 21;
-const dayEnd = 24;
+const dayStart = 9;
+const dayEnd = 17;
 
 function renderTime() {
   const momentDate = moment();
