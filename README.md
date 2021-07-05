@@ -4,39 +4,44 @@
 
 To clone and run this project, please make sure you have git installed.
 
-run `git clone https://github.com/Nem-Ajvaz/homework_3.git`
+run `git clone https://github.com/Nem-Ajvaz/homework_5.git`
 
 ## Introduction
 
-The purpose of this project was to build a password generator which met the following conditions:
+The purpose of this project was to build a simple calendar app for scheduling your working day.
 
-Length between 8 - 128
-Conditional lowercase letters
-Conditional uppercase letters
-Conditional numbers
-Conditional special characters
+The acceptance criteria is listed below:
+
+GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+WHEN I scroll down
+THEN I am presented with timeblocks for standard business hours
+WHEN I view the timeblocks for that day
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+WHEN I click into a timeblock
+THEN I can enter an event
+WHEN I click the save button for that timeblock
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist
 
 ## Images
 
-Input
+Home
 
-![Number less than 8](/assets/images/screenshots/Less-than-8.png)
-![Greater than 128](/assets/images/screenshots/More-than-128.png)
-![Please choose between 8 and 128](/assets/images/screenshots/Enter-correct-value.png)
+When the page is first loaded there is nothing in local storage
+![Home Page without anything store in local storage](/assets/images/screenshots/clearHomePage.png)
 
-Include
+Upon entering and saving the data, a key pair appeared in the local storage as shown below.
+![Populated Local Storage Test 1](/assets/images/screenshots/testOneData.png)
 
-![Include Numbers](/assets/images/screenshots/Include-numbers.png)
-![Include Special Characters](/assets/images/screenshots/Include-special-chars.png)
-![Include Lower Case](/assets/images/screenshots/Include-lowercase.png)
-![Include Upper Case](/assets/images/screenshots/Include-uppercase.png)
-
-Password Generation
-![Generated password](assets/images/screenshots/Generated-password.png)
+Erasing the entered data and saving it emptied the string in local storage but the key remained.
+![Removing text from Local Storage](/assets/images/screenshots/testOneDataEmpty.png)
 
 ## Issues faced
 
-The major issue faced was with the correct logic for assigning random indexes of the string to the generated password.
+It took me a little bit of time to understand how the moment api works.
 
 ## Lisence
 
