@@ -31,13 +31,13 @@ THEN the saved events persist
 Home
 
 When the page is first loaded there is nothing in local storage
-![Home Page without anything store in local storage](/assets/images/screenshots/clearHomePage.png)
+![Home Page without anything store in local storage](/asset/images/screenshots/clearHomePage.png)
 
 Upon entering and saving the data, a key pair appeared in the local storage as shown below.
-![Populated Local Storage Test 1](/assets/images/screenshots/testOneData.png)
+![Populated Local Storage Test 1](/asset/images/screenshots/testOneData.png)
 
 Erasing the entered data and saving it emptied the string in local storage but the key remained.
-![Removing text from Local Storage](/assets/images/screenshots/testOneDataEmpty.png)
+![Removing text from Local Storage](/asset/images/screenshots/testOneDataEmpty.png)
 
 ## Issues faced
 
